@@ -9,10 +9,14 @@
 <body>
   <h1>Taxinator</h1>
   <h2>Calculate your BC income tax</h2>
-  <div id="input-income">
+  <div id="income-tax">
     <span class="input-line income-dollar-amount">
-      <b class="input-header">Income: $</b>
-      <input type="number" name="income" id="income-dollar-value">
+      <b class="input-label">Income: $</b>
+      <input type="number" name="income" class="input-value">
+    </span>
+    <span class="result-line income-tax-calculated">
+      <b class="calculated-label">Calculated tax: $</b>
+      <span class="calculated-value"></span>
     </span>
   </div>
   <script
