@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body * {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1em;
+  border: 1px solid black;
+  border-radius: 1ex;
+  padding: 1em;
+  background-color:aliceblue;
+}
+
+.card > h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.card > span {
+  align-self: flex-start;
+}
