@@ -1,7 +1,7 @@
 var income_input = document.querySelector(".income-dollar-amount > .input-value");
 var tax_value = document.querySelector(".income-tax-calculated > .calculated-value");
 
-const TAX_BRACKET_BOUNDARIES = [42279, 98560, 113158, 137407, 186306, 259829];
+const TAX_BRACKET_BOUNDARIES = [47_937, 95_875, 110_076, 133_664, 181_232, 252_752];
 const TAX_BRACKET_RATES = [5.06, 7.70, 10.50, 12.29, 14.70, 16.80, 20.50];
 
 /**
